@@ -4,18 +4,18 @@ console.log(nome); // Exibe o nome console
 
 
 // Questão 2
-const idade = "25"; // Define a idade como string
-const altura = "1.75"; // Define a altura como string
+const idade = 25; // Define a idade como string
+const altura = 1.75; // Define a altura como string
 console.log("Idade: " + idade, "Altura: " + altura); // Exibe a idade e a altura concatenadas
 
 // Questão 3
-const preco = "50"; // Define o preco do produto
-const desconto = "0.2"; // Define o valor do desconto (20%)
-calculo = (preco - (preco * desconto)); // Calcula o preço final com desconto
+const preco = 50; // Define o preco do produto
+const desconto = 0.2; // Define o valor do desconto (20%)
+const calculo = preco - (preco * desconto); // Calcula o preço final com desconto
 console.log("Seu desconto é: " + calculo); // Exibe o valor final no console
 
 // Questão 4
-let temperatura = "30"; // Define a temperatura
+let temperatura = 30; // Define a temperatura
 if (temperatura > 25) { // Verifica se a temperatura é maior que 25
     console.log("Está Calor!"); // Exibe no console.log  se estiver calor
 } else {
@@ -23,7 +23,7 @@ if (temperatura > 25) { // Verifica se a temperatura é maior que 25
 }
 
 // Questão 5
-const idadeUsuario = prompt("Qual sua idade? "); // Solicita a idade do usuário
+const idadeUsuario = parseInt(prompt("Qual sua idade? "));  // Solicita a idade do usuário
 if (idadeUsuario >= 18) { // Verifica se a idade é maior que 18
     console.log("Você é maior de idade"); // Exibe mensagem se for maior de idade
 } else {
@@ -31,7 +31,7 @@ if (idadeUsuario >= 18) { // Verifica se a idade é maior que 18
 }
 
 // Questão 6
-const nota = prompt("Informe uma nota de 0 a 10: "); // Solicita a nota do usuário
+const nota = parseFloat(prompt("Informe uma nota de 0 a 10: ")); // Solicita a nota do usuário
 if(nota >= 7){ // Verifica se a nota é maior ou igual a 7
     console.log("Aprovado!"); // Exibe mensagem de aprovado
 }else if(nota > 5 && nota <= 6){ // Verifica se a nota está entre 5 e 6
