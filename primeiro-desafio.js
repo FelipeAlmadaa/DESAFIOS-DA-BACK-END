@@ -1,17 +1,18 @@
 // Questão 1
 const nome = "Felipe Augusto Sousa de Almada"; // Define uma constante com o nome
-console.log(nome); // Exibe o nome no console
+alert(nome); // Exibe o nome navegador
+
 
 // Questão 2
 const idade = "25"; // Define a idade como string
 const altura = "1.75"; // Define a altura como string
-console.log("Idade: " + idade, "Altura: " + altura); // Exibe a idade e a altura concatenadas
+alert("Idade: " + idade, "Altura: " + altura); // Exibe a idade e a altura concatenadas
 
 // Questão 3
 const preco = "50"; // Define o preco do produto
 const desconto = "0.2"; // Define o valor do desconto (20%)
 calculo = (preco - (preco * desconto)); // Calcula o preço final com desconto
-console.log("Seu desconto é: " + calculo); // Exibe o valor final no console
+alert("Seu desconto é: " + calculo); // Exibe o valor final no navegador
 
 // Questão 4
 let temperatura = "30"; // Define a temperatura
@@ -108,4 +109,4 @@ function somar(numero1, numero2) { // Função para somar dois números
 const primeiroNumero = 10; // Define o primeiro número
 const segundoNumero = 20; // Define o segundo número
 const resultadoSoma = somar(primeiroNumero, segundoNumero); // Chama a função e armazena o resultado
-console.log(`O resultado da soma é: ${resultadoSoma}`); // Exibe o resultado no console
+alert(`O resultado da soma é: ${resultadoSoma}`); // Exibe o resultado no navegador
