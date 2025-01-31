@@ -1,58 +1,58 @@
 // Questão 1
 const nome = "Felipe Augusto Sousa de Almada"; // Define uma constante com o nome
-Console.log(nome); // Exibe o nome navegador
+console.log(nome); // Exibe o nome navegador
 
 
 // Questão 2
 const idade = "25"; // Define a idade como string
 const altura = "1.75"; // Define a altura como string
-Console.log("Idade: " + idade, "Altura: " + altura); // Exibe a idade e a altura concatenadas
+console.log("Idade: " + idade, "Altura: " + altura); // Exibe a idade e a altura concatenadas
 
 // Questão 3
 const preco = "50"; // Define o preco do produto
 const desconto = "0.2"; // Define o valor do desconto (20%)
 calculo = (preco - (preco * desconto)); // Calcula o preço final com desconto
-Console.log("Seu desconto é: " + calculo); // Exibe o valor final no navegador
+console.log("Seu desconto é: " + calculo); // Exibe o valor final no navegador
 
 // Questão 4
 let temperatura = "30"; // Define a temperatura
 if (temperatura > 25) { // Verifica se a temperatura é maior que 25
-    Console.log("Está Calor!"); // Exibe Console.loga se estiver calor
+    console.log("Está Calor!"); // Exibe console.loga se estiver calor
 } else {
-    Console.log("Está Fresco!"); // Exibe Console.loga se estiver fresco
+    console.log("Está Fresco!"); // Exibe console.loga se estiver fresco
 }
 
 // Questão 5
 const idadeUsuario = prompt("Qual sua idade? "); // Solicita a idade do usuário
 if (idadeUsuario >= 18) { // Verifica se a idade é maior que 18
-    Console.log("Você é maior de idade"); // Exibe mensagem se for maior de idade
+    console.log("Você é maior de idade"); // Exibe mensagem se for maior de idade
 } else {
-    Console.log("Você é menor de idade"); // Exibe mensagem se for menor de idade
+    console.log("Você é menor de idade"); // Exibe mensagem se for menor de idade
 }
 
 // Questão 6
 const nota = prompt("Informe uma nota de 0 a 10: "); // Solicita a nota do usuário
 if(nota >= 7){ // Verifica se a nota é maior ou igual a 7
-    Console.log("Aprovado!"); // Exibe mensagem de aprovado
+    console.log("Aprovado!"); // Exibe mensagem de aprovado
 }else if(nota > 5 && nota <= 6){ // Verifica se a nota está entre 5 e 6
-    Console.log("Recuperação"); // Exibe mensagem de recuperação
+    console.log("Recuperação"); // Exibe mensagem de recuperação
 }else{
-    Console.log("Reprovado"); // Exibe mensagem de reprovado
+    console.log("Reprovado"); // Exibe mensagem de reprovado
 }
 
 // Questão 7
 const numero1 = prompt("1º Numero: "); // Solicita o primeiro número
 const numero2 = prompt("2º Número: "); // Solicita o segundo número
 if (numero1 == numero2){ // Verifica se os números são iguais
-    Console.log("Os números são iguais"); // Exibe mensagem se forem iguais
+    console.log("Os números são iguais"); // Exibe mensagem se forem iguais
 }else{
-    Console.log("Os números são diferentes"); // Exibe mensagem se forem diferentes
+    console.log("Os números são diferentes"); // Exibe mensagem se forem diferentes
 }
 
 // Questão 8
 const nomeUsuario = prompt("Digite seu nome: "); // Solicita o nome do usuário
 const idadeInformada = prompt("Digite sua idade: "); // Solicita a idade do usuário
-Console.log(`Olá, meu nome é ${nomeUsuario} e eu tenho ${idadeInformada} anos`); // Exibe mensagem formatada
+console.log(`Olá, meu nome é ${nomeUsuario} e eu tenho ${idadeInformada} anos`); // Exibe mensagem formatada
 
 // Questão 9
 let numero = 0;
@@ -61,7 +61,7 @@ while (numero < 10) { // Enquanto número for menor que 10
     numero++;
     mensagem += numero + " "; // Concatena o número na mensagem
 }
-Console.log(mensagem); // Exibe todos os números em um único Console.log
+console.log(mensagem); // Exibe todos os números em um único console.log
 
 // Questão 10
 let cont = 1; // Inicializa contador
@@ -77,7 +77,7 @@ for(let i = 0; i < 11; i++){ // Laço de repetição de 0 a 10
     let resultado = (`7 * ${i} = ${7*i}`); // Calcula a tabuada do 7
     tabuada += resultado + "\n"; // Concatena o resultado com quebra de linha
 }
-Console.log(tabuada); // Exibe a tabuada no Console.loga
+console.log(tabuada); // Exibe a tabuada no console.loga
 
 // Questão 12
 let numeros = "";
@@ -86,7 +86,7 @@ for (let i = 0; i < 21 ; i++) { // Percorre números de 0 a 20
         numeros += i + " "; // Concatena os números pares na string
     }    
 }
-Console.log("Números Pares de 0 a 20: " + numeros); // Exibe os números pares
+console.log("Números Pares de 0 a 20: " + numeros); // Exibe os números pares
 
 // Questão 13
 function areacirculo(raio) { // Função que calcula a área do círculo
@@ -94,13 +94,13 @@ function areacirculo(raio) { // Função que calcula a área do círculo
 }
 let raioCirculo = parseFloat(prompt("Raio: ")); // Solicita o raio do usuário
 const resultadoArea = areacirculo(raioCirculo); // Chama a função e armazena o resultado
-Console.log("Área do Círculo: " + resultadoArea.toFixed(2)); // Exibe a área arredondada
+console.log("Área do Círculo: " + resultadoArea.toFixed(2)); // Exibe a área arredondada
 
 // Questão 14
 let num1 = parseInt(prompt("1º número: ")); // Solicita o primeiro número
 let num2 = parseInt(prompt("2º número: ")); // Solicita o segundo número
 let soma = num1 + num2; // Calcula a soma
-Console.log("A soma é: " + soma); // Exibe o resultado
+console.log("A soma é: " + soma); // Exibe o resultado
 
 // Questão 15
 function somar(numero1, numero2) { // Função para somar dois números
@@ -109,4 +109,4 @@ function somar(numero1, numero2) { // Função para somar dois números
 const primeiroNumero = 10; // Define o primeiro número
 const segundoNumero = 20; // Define o segundo número
 const resultadoSoma = somar(primeiroNumero, segundoNumero); // Chama a função e armazena o resultado
-Console.log(`O resultado da soma é: ${resultadoSoma}`); // Exibe o resultado no navegador
+console.log(`O resultado da soma é: ${resultadoSoma}`); // Exibe o resultado no navegador
