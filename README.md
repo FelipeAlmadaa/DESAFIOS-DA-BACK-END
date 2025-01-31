@@ -1,1 +1,1 @@
-HTML adicionado para executar prompt e console.log
+Necessário a biblioteca readline-sync para executar input no terminal
